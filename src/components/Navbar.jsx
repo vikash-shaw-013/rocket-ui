@@ -69,7 +69,10 @@ const Navbar = () => {
         {/* Desktop navigation */}
         <NavLinks />
   
-        <Button button_text="Apply Now" className="px-4 py-2" />
+        <Button button_text="Apply Now" className="px-6 py-3 text-[1.3rem] transition-all duration-300
+    shadow hover:shadow-[0_10px_30px_rgba(0,0,0,0.4)]
+    dark:shadow hover:dark:shadow-[0_10px_30px_rgba(56,189,248,0.4)]
+    hover:scale-105" />
       </div>
 
       {/* Mobile menu dropdown that pushes content down */}
